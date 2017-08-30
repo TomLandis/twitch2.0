@@ -1,0 +1,146 @@
+body {
+  background-color: #874ec9;
+  font-family: 'Orbitron', sans-serif;
+  transition: all 0.5s ease;
+}
+#buttons {
+  margin: auto;
+  float: center;
+  text-align: center;
+    border-radius: 25px 25px 25px 25px;
+-moz-border-radius: 25px 25px 25px 25px;
+-webkit-border-radius: 25px 25px 25px 25px;
+  
+}
+h3 {
+  font-family: 'Fugaz One', cursive;
+  font-size: 7vmin;
+  text-align: center;
+}
+h4 {
+  font-family: 'Fugaz One', cursive;
+  color: red;
+  font-size: 5.5vmin;
+}
+h5 {
+  font-size: 6vmin;
+}
+h1 {
+  font-size: 13vmin;
+  text-align: center;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  margin-bottom: 1vmin;
+}
+#liveNotice {
+ 
+}
+#channels {
+  display: flex;
+  flex-direction: row;
+  background-color: #874ec9;
+  padding: 3vmin;
+  justify-content: space-between;
+ 
+ 
+  border-radius: 25px 25px 25px 25px;
+-moz-border-radius: 25px 25px 25px 25px;
+-webkit-border-radius: 25px 25px 25px 25px;
+border: 0px solid  #874ec9;
+}
+
+.offline {
+ background-color: #c4c4c4;
+  border-radius: 25px 25px 25px 25px;
+-moz-border-radius: 25px 25px 25px 25px;
+-webkit-border-radius: 25px 25px 25px 25px;
+   opacity: .9;
+  padding: 2vw;
+   margin-bottom: 3px;
+}
+
+.online {
+  
+  background-color: #ffff60;
+  border-radius: 25px 25px 25px 25px;
+-moz-border-radius: 25px 25px 25px 25px;
+-webkit-border-radius: 25px 25px 25px 25px;
+  padding: 2vw;
+   margin-bottom: 1vw;
+}
+
+.thumb {
+  max-width: 20vmin;
+  border-radius:50%;
+
+  
+}
+
+.container{
+ 
+  display: flex;
+   justify-content: center;
+  overflow: hidden;
+}
+
+a {
+ 
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+    border-radius: 25px 25px 25px 25px;
+-moz-border-radius: 25px 25px 25px 25px;
+-webkit-border-radius: 25px 25px 25px 25px;
+}
+a:hover {
+  background-color: #650091;
+  color: white;
+  transition: all 0.5s ease;
+}
+button {
+  padding: 3vw;
+  font-family: 'Fugaz One', cursive;
+  font-size: 8vmin;
+    border-radius: 25px 25px 25px 25px;
+-moz-border-radius: 25px 25px 25px 25px;
+-webkit-border-radius: 25px 25px 25px 25px;
+}
+button:hover {
+ background-color: #650091;
+  color: white;
+  transition: all 0.5s ease;
+}
+
+.livePreview {
+ justify-content: space-around;
+  flex-direction: column;
+  overflow: hidden;
+  wrap: no-wrap;
+}
+
+img {
+  
+  max-height: 100%;
+  max-width: 100%;
+}
+.smallish {
+  max-height: 25vh;
+}
+.livePreview:hover + .parent {
+   background-color: #650091;
+  color: white;
+  transition: all 0.5s ease;
+  
+}
+.name {
+  font-size: 7vmin;
+  text-align: right;
+   
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  padding: 6vmin;
+}
